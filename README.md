@@ -14,6 +14,12 @@ agent framework.
 
 Network: 5 Gbps fiber into the rig. Node interconnect via NordVPN Meshnet.
 
+## Physical topology
+
+ONT (fiber in) → 125 ft Cat8 → BE15000 tri-band Wi-Fi 7 router → 5-port switch
+→ rig + Acer Nitro (both Cat8 wired). The ThinkPad joins the same way when it's
+built. Wired cluster nodes — no Wi-Fi for k3s traffic.
+
 ## Layout
 
 - `nodes/` — per-node build docs: OS install, drivers, k3s agent join, verification
