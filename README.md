@@ -17,8 +17,9 @@ Network: 5 Gbps fiber into the rig. Node interconnect via NordVPN Meshnet.
 ## Physical topology
 
 ONT (fiber in) → 125 ft Cat8 → BE15000 tri-band Wi-Fi 7 router → 5-port switch
-→ rig + Acer Nitro (both Cat8 wired). The ThinkPad joins the same way when it's
-built. Wired cluster nodes — no Wi-Fi for k3s traffic.
+→ rig + Acer Nitro (both Cat8 wired). The ThinkPad X13 has no Ethernet port —
+it joins over Wi-Fi, or wired via a USB-C to Ethernet adapter (recommended for a
+k3s node; ~$15).
 
 ## Layout
 
