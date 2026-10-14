@@ -12,9 +12,6 @@ agent framework.
 | Worker | Acer Nitro AN515-55 | i5-10300H | 8 GB | RTX 3050 Laptop 4 GB | Ubuntu Server 26.04 LTS |
 | Worker | ThinkPad X13 Gen 2 | i5-1145G7 | 16 GB | Iris Xe | Ubuntu Server 26.04 LTS |
 
-The ASUS Zenbook 14 (school laptop, must stay dual-boot Windows) is intentionally
-excluded — a cluster node that dual-boots is a headache nobody wants.
-
 Network: 5 Gbps fiber into the rig. Node interconnect via NordVPN Meshnet.
 
 ## Layout
