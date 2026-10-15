@@ -12,7 +12,7 @@ agent framework.
 | Worker | Acer Nitro AN515-55 | i5-10300H | 8 GB | RTX 3050 Laptop 4 GB | Ubuntu Server 26.04 LTS |
 | Worker | ThinkPad X13 Gen 2 | i5-1145G7 | 16 GB | Iris Xe | Ubuntu Server 26.04 LTS |
 
-Network: 5 Gbps fiber into the rig. Node interconnect via NordVPN Meshnet.
+Network: 5 Gbps fiber into the rig. All nodes on the same LAN (192.168.0.0/24); k3s joins used the rig's LAN IP. Tailscale is installed on the rig for remote access.
 
 ## Physical topology
 
