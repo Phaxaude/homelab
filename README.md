@@ -1,6 +1,6 @@
 # Homelab k3s Cluster
 
-Jacob's home Kubernetes lab: a k3s cluster doing distributed local LLM inference
+Jacob's home Kubernetes lab: a k3s cluster serving local LLMs
 across heterogeneous hardware, and the scheduling target for his in-development
 agent framework.
 
